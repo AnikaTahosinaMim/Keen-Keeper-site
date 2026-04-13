@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
         <div className="container mx-auto mt-8">
           <hr className="text-gray-600" />
-          <div className="flex justify-between text-sm text-gray-300">
+          <div className="flex flex-col md:flex-row  justify-between text-sm text-gray-300">
             <p>© 2026 KeenKeeper. All rights reserved.</p>
             <div className="flex gap-3">
               <p>Privacy policy</p>

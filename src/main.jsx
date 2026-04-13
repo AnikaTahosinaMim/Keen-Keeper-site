@@ -7,6 +7,8 @@ import Homepage from "./home/Homepage";
 import TimeLine from "./timeline/TimeLine";
 import Status from "./status/Status";
 import Mainlayout from "./layout/Mainlayout";
+import Nofound from "./components/notFound/Nofound";
+import FreindDatails from "./ui/FreindDatails";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -15,7 +17,9 @@ const router = createBrowserRouter([
       { index: true, Component: Homepage },
       { path: "/timeline", Component: TimeLine },
       { path: "/status", Component: Status },
+      { path: "/:id", Component: FreindDatails },
     ],
+    errorElement: <Nofound></Nofound>,
   },
 ]);
 

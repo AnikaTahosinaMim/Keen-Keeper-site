@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "picture": "https://randomuser.me/api/portraits/men/1.jpg",
+    "email": "john@example.com",
+    "days_since_contact": 12,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university. Love hiking together.",
+    "goal": 14,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 2,
+    "name": "Ayesha Rahman",
+    "picture": "https://randomuser.me/api/portraits/women/2.jpg",
+    "email": "ayesha.rahman@example.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["school friend", "best friend"],
+    "bio": "Childhood friend, always supportive.",
+    "goal": 7,
+    "next_due_date": "2025-07-14"
+  },
+  {
+    "id": 3,
+    "name": "Michael Smith",
+    "picture": "https://randomuser.me/api/portraits/men/3.jpg",
+    "email": "michael.smith@example.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["work", "colleague"],
+    "bio": "Worked together on several projects.",
+    "goal": 30,
+    "next_due_date": "2025-07-30"
+  },
+  {
+    "id": 4,
+    "name": "Sadia Islam",
+    "picture": "https://randomuser.me/api/portraits/women/4.jpg",
+    "email": "sadia.islam@example.com",
+    "days_since_contact": 1,
+    "status": "on-track",
+    "tags": ["university", "close friend"],
+    "bio": "Study partner and coding buddy.",
+    "goal": 5,
+    "next_due_date": "2025-07-10"
+  },
+  {
+    "id": 5,
+    "name": "Rahim Uddin",
+    "picture": "https://randomuser.me/api/portraits/men/5.jpg",
+    "email": "rahim.uddin@example.com",
+    "days_since_contact": 18,
+    "status": "almost due",
+    "tags": ["gym", "friend"],
+    "bio": "Met at gym, share fitness goals.",
+    "goal": 20,
+    "next_due_date": "2025-07-25"
+  },
+  {
+    "id": 6,
+    "name": "Emily Johnson",
+    "picture": "https://randomuser.me/api/portraits/women/6.jpg",
+    "email": "emily.johnson@example.com",
+    "days_since_contact": 7,
+    "status": "on-track",
+    "tags": ["online friend", "gaming"],
+    "bio": "Met through online gaming community.",
+    "goal": 10,
+    "next_due_date": "2025-07-18"
+  },
+  {
+    "id": 7,
+    "name": "Hasan Mahmud",
+    "picture": "https://randomuser.me/api/portraits/men/7.jpg",
+    "email": "hasan.mahmud@example.com",
+    "days_since_contact": 40,
+    "status": "overdue",
+    "tags": ["old friend", "school"],
+    "bio": "School friend from childhood days.",
+    "goal": 30,
+    "next_due_date": "2025-08-01"
+  },
+  {
+    "id": 8,
+    "name": "Abid Hasan",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "abid@example.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["school friend", "close friend"],
+    "bio": "School best friend. Always helps in coding.",
+    "goal": 14,
+    "next_due_date": "2025-07-12"
+  },
+  {
+    "id": 9,
+    "name": "Nusrat Jahan",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "nusrat@example.com",
+    "days_since_contact": 18,
+    "status": "almost due",
+    "tags": ["college friend", "study partner"],
+    "bio": "Met in college. Study together for exams.",
+    "goal": 20,
+    "next_due_date": "2025-07-25"
+  },
+  {
+    "id": 10,
+    "name": "Rakib Ahmed",
+    "picture": "https://randomuser.me/api/portraits/men/65.jpg",
+    "email": "rakib@example.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["best friend", "gaming buddy"],
+    "bio": "We play games together every weekend.",
+    "goal": 10,
+    "next_due_date": "2025-07-18"
+  }
+]
