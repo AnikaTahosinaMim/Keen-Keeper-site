@@ -3,6 +3,7 @@ import { CiVideoOn } from "react-icons/ci";
 import { LuMessageSquareMore, LuPhoneCall } from "react-icons/lu";
 import { TimeContext } from "../context/TimeContext";
 import UseData from "../hooks/UseData";
+import { toast } from "react-toastify";
 
 const MainFreind = ({ expetedFriend }) => {
   const { friends } = UseData();
@@ -20,6 +21,7 @@ const MainFreind = ({ expetedFriend }) => {
 
     setTime([...time, newCall]);
     console.log(newCall, "time date name");
+    toast.success("Btn clicked");
   };
   return (
     <div>

@@ -3,7 +3,7 @@ import { TimeContext } from "../context/TimeContext";
 import { Legend, Pie, PieChart, Tooltip } from "recharts";
 
 const Status = () => {
-  const { time} = useContext(TimeContext);
+  const { time } = useContext(TimeContext);
   const countCall = time.filter((item) => item.type === "call").length;
   const countText = time.filter((item) => item.type === "text").length;
   const countVideo = time.filter((item) => item.type === "video").length;
@@ -15,18 +15,16 @@ const Status = () => {
   ];
 
   return (
-    <div>
-      <h2>Friendship Analytics</h2>
-      <div className="text-center justify-center items-center mx-auto">
+    <div className="container mx-auto">
+      <h2 className="font-bold text-3xl my-8 ">Friendship Analytics</h2>
+      <p className="font-bold">By Interaction Type</p>
+      <div className="text-center justify-center flex items-center mx-auto ">
         <PieChart
           style={{
             width: "100%",
             maxWidth: "500px",
             maxHeight: "80vh",
             aspectRatio: 1,
-            textAlign: "center",
-            justifyItems: "center",
-            alignItems: "center",
           }}
           responsive
         >
