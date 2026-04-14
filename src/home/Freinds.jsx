@@ -6,7 +6,11 @@ import { Link } from "react-router";
 const Freinds = () => {
   const { friends, loading } = UseData();
   if (loading) {
-    return <h2>Loading.......</h2>;
+    return (
+      <div className="text-center items-center mx-auto">
+        <span className="loading loading-spinner text-success "></span>
+      </div>
+    );
   }
   console.log(friends);
   console.log(loading, "loading");
