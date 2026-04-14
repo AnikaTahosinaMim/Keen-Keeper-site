@@ -1,16 +1,17 @@
 // import React, { useState } from "react";
+
 import { useParams } from "react-router";
 import UseData from "../hooks/UseData";
-
 import { useContext } from "react";
 import { TimeContext } from "../context/TimeContext";
 import FriendInfo from "./FriendInfo";
 import FriendStatus from "./FriendStatus";
 import FriendBig from "./FriendBig";
+import MainFreind from "./MainFreind";
 
 const FreindDatails = () => {
   const { time, setTime } = useContext(TimeContext);
-  console.log(time, setTime);
+  console.log(time, "timeof timeline");
   const { id } = useParams();
   const { friends } = UseData();
   //   const {datailsfriends,setDatailsfriends} = useState([])
@@ -61,6 +62,7 @@ const FreindDatails = () => {
         </div>
 
         {/*Quick Check-In  */}
+        <MainFreind expetedFriend={expetedFriend}></MainFreind>
         <FriendBig></FriendBig>
       </div>
     </div>

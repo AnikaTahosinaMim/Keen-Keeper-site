@@ -5,31 +5,7 @@ import { LuHistory, LuMessageSquareMore, LuPhoneCall } from "react-icons/lu";
 const FriendBig = () => {
   return (
     <div>
-      <div className="bg-white shadow-lg rounded-lg p-6">
-        <h2>Quick Check-In</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="bg-gray-200 rounded-lg text-center py-6 px-8 border border-gray-400">
-            <span>
-              <LuPhoneCall className="mx-auto"></LuPhoneCall>
-            </span>
-            <p>call</p>
-          </div>
-          <div className="bg-gray-200 rounded-lg text-center py-6 px-8 border border-gray-400">
-            <span>
-              {" "}
-              <LuMessageSquareMore className="mx-auto"></LuMessageSquareMore>{" "}
-            </span>
-            <p>text</p>
-          </div>
-          <div className="bg-gray-200 rounded-lg text-center py-6 px-8 border border-gray-400">
-            <p>
-              {" "}
-              <CiVideoOn className="mx-auto"></CiVideoOn>{" "}
-            </p>
-            <h2>video</h2>
-          </div>
-        </div>
-      </div>
+     
       <div className="p-4 shadow-lg bg-white my-8">
         <div className="flex justify-between items-center">
           <h2>Recent Interactions</h2>
