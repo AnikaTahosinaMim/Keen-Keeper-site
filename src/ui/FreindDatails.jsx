@@ -23,12 +23,7 @@ const FreindDatails = () => {
       </div>
     );
   }
-  //   const dupliCateFreind = friends.find((n)=> n.id== expetedFriend.id)
-  //   if(!dupliCateFreind){
-  //     alert("already add")
-  //   } else{
-
-  //   }
+  
   console.log(expetedFriend, "expected id");
   console.log(id);
   return (
@@ -57,7 +52,7 @@ const FreindDatails = () => {
             <button className="btn">Edit</button>
           </div>
           <p>
-            Connect every <span className="font-bold">30 days</span>
+            Connect every <span className="font-bold">{expetedFriend.goal} days</span>
           </p>
         </div>
 

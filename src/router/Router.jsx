@@ -14,8 +14,9 @@ export const router = createBrowserRouter([
       { index: true, Component: Homepage },
       { path: "/timeline", Component: TimeLine },
       { path: "/status", Component: Status },
-      { path: "/:id", Component: FreindDatails },
+      { path: "/friend/:id", Component: FreindDatails },
+    
     ],
-    errorElement: Nofound,
+    errorElement : <Nofound></Nofound>
   },
 ]);

@@ -9,7 +9,6 @@ const FriendInfo = ({expetedFriend}) => {
         alt=""
       />
       <h2 className="font-bold">{expetedFriend.name}</h2>
-      <p className="">{expetedFriend.days_since_contact}d ago</p>
 
       <span
         className={

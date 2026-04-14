@@ -15,7 +15,7 @@ const Status = () => {
   ];
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto mb-13">
       <h2 className="font-bold text-3xl my-8 ">Friendship Analytics</h2>
       <p className="font-bold">By Interaction Type</p>
       <div className="text-center justify-center flex items-center mx-auto ">

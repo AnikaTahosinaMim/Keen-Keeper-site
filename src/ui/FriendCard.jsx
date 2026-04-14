@@ -4,7 +4,7 @@ import { Link } from "react-router";
 const FriendCard = ({ friend }) => {
   return (
     <div>
-      <Link to={`/${friend.id}`}>
+      <Link to={`/friend/${friend.id}`}>
         <div className="space-y-2 shadow-lg py-6 text-center" key={friend.di}>
           <img
             className="w-15 h-15 object-cover mx-auto rounded-full"

@@ -16,12 +16,17 @@ const MainFreind = ({ expetedFriend }) => {
       type: type,
       name: expetedFriend.name,
       id: expetedFriend.id,
-      date: new Date().toLocaleDateString(),
+      date: new Date().toLocaleDateString("en-US", {
+        weekday: "short",
+        month: "long",
+        day: "numeric",
+        year: "numeric",
+      }),
     };
 
     setTime([...time, newCall]);
     console.log(newCall, "time date name");
-    toast.success("Btn clicked");
+    toast.success(`${type} with ${expetedFriend.name}`);
   };
   return (
     <div>
