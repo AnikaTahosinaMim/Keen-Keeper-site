@@ -4,7 +4,7 @@ import { CiVideoOn } from "react-icons/ci";
 import { LuMessageSquareMore, LuPhoneCall } from "react-icons/lu";
 
 const TimeLine = () => {
-  const { time, setTime } = useContext(TimeContext);
+  const { time} = useContext(TimeContext);
   const [allFilter, setAllFilter] = useState("all");
   const filteredTime =
     allFilter === "all" ? time : time.filter((item) => item.type === allFilter);
